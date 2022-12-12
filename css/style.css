@@ -27,18 +27,26 @@ img {
 	max-width: 100%;
 }
 
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 75px;
+    padding-top: 40px;
+}
+
+.introd {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 12px 0;
-}
-
-.container a, p {
-    color: white;
-}
-
-.container h3 {
-    color: white;
 }
 
 .col {
@@ -54,9 +62,18 @@ img {
 .card {
 	text-align: center;
     background-color: black;
+    color: white;
 }
 
 .card img {
 	height: 110px;
     float: left;
+}
+
+.card h3 {
+    color: lightblue;
+}
+
+.card a {
+    color: lightblue;
 }
