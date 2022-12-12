@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+body {
+	background-color: white;
+	color: black;
+}
+
+main {
+	padding: 48px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+
+.container a, p {
+    color: white;
+}
+
+.container h3 {
+    color: white;
+}
+
+.col {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+.col:last-child {
+	margin-right: 0;
+}
+
+.card {
+	text-align: center;
+    background-color: black;
+}
+
+.card img {
+	height: 110px;
+    float: left;
+}
