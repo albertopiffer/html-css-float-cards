@@ -53,6 +53,7 @@ h1 {
 	width: 30%;
 	float: left;
 	margin-right: 5%;
+    margin-bottom: 30px;
 }
 
 .col:last-child {
@@ -60,7 +61,7 @@ h1 {
 }
 
 .card {
-	text-align: center;
+	text-align: left;
     background-color: black;
     color: white;
 }
@@ -68,12 +69,21 @@ h1 {
 .card img {
 	height: 110px;
     float: left;
+    margin-right: 15px;
 }
 
 .card h3 {
-    color: lightblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.card p {
+    font-family: sans-serif;
+    padding-bottom: 10px;
 }
 
 .card a {
     color: lightblue;
+    font-family: sans-serif;
 }
